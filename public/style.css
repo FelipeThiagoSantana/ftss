@@ -1,3 +1,53 @@
 .logo{
     text-decoration: greenyellow !important;
 }
+.navbar{
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.px-3{
+    margin-top: 10%;
+    
+}
+/*Texto*/
+p.lead
+{
+    text-align: center;
+    font-weight:300;
+}
+
+
+/*Engrenagem*/
+.custom-svg {
+    width: 48px; 
+    height: 48px;
+    color: #ffffff;
+    
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-svg {
+    animation: rotate 5s linear infinite; 
+}
+
+/*Roda pé*/
+footer{
+    background-color: #2B3035;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%!important;
+    position: absolute;
+    }
+.text-white-50 {
+    --bs-text-opacity: 1;
+    color: rgba(255,255,255,.5)!important;
+}
