@@ -56,6 +56,6 @@ footer{
     color: white; /* Define a cor do texto */
     border: none; /* Remove a borda */
     padding: 5px 25px; /* Adiciona um espaçamento interno */
-    border-radius: 8px; /* Adiciona bordas arredondadas */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
     cursor: pointer; /* Muda o cursor ao passar por cima */
 }
