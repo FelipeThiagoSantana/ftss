@@ -8,7 +8,7 @@
 
 .px-3{
     margin-top: 10%;
-    
+
 }
 /*Texto*/
 p.lead
@@ -20,10 +20,10 @@ p.lead
 
 /*Engrenagem*/
 .custom-svg {
-    width: 48px; 
+    width: 48px;
     height: 48px;
     color: #ffffff;
-    
+
 }
 @keyframes rotate {
     0% {
@@ -35,7 +35,7 @@ p.lead
 }
 
 .rotating-svg {
-    animation: rotate 5s linear infinite; 
+    animation: rotate 5s linear infinite;
 }
 
 /*Roda pé*/
@@ -50,4 +50,12 @@ footer{
 .text-white-50 {
     --bs-text-opacity: 1;
     color: rgba(255,255,255,.5)!important;
+}
+.custom-btn {
+    background-color: #1CCA00; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    padding: 5px 25px; /* Adiciona um espaçamento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
 }
