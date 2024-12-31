@@ -1,20 +1,22 @@
-.logo{
+/*Home Begins*/
+.logo {
     text-decoration: greenyellow !important;
 }
-.navbar{
+
+.navbar {
     border-radius: 10px;
     margin: 1%;
 }
 
-.px-3{
+.px-3 {
     margin-top: 10%;
 
 }
+
 /*Texto*/
-p.lead
-{
+p.lead {
     text-align: center;
-    font-weight:300;
+    font-weight: 300;
 }
 
 
@@ -25,6 +27,7 @@ p.lead
     color: #ffffff;
 
 }
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
@@ -39,18 +42,20 @@ p.lead
 }
 
 /*Roda pé*/
-footer{
+footer {
     background-color: #2B3035;
     text-align: center;
-    padding: 10px;
     bottom: 0;
-    width: 100%!important;
-    position: absolute;
-    }
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100% !important;
+}
+
 .text-white-50 {
     --bs-text-opacity: 1;
-    color: rgba(255,255,255,.5)!important;
+    color: rgba(255, 255, 255, .5) !important;
 }
+
 .custom-btn {
     background-color: #1CCA00; /* Define a cor de fundo */
     color: white; /* Define a cor do texto */
@@ -59,3 +64,25 @@ footer{
     border-radius: 5px; /* Adiciona bordas arredondadas */
     cursor: pointer; /* Muda o cursor ao passar por cima */
 }
+
+.textHomeGeral {
+    font-family: Inter;
+    text-align: left;
+    padding-top: 65px;
+}
+
+.textHomeDev {
+    color: rgb(12, 254, 80);
+    font-size: 45px;
+}
+
+.dvTop {
+
+}
+
+.imgPefil {
+    height: 350px;
+
+}
+
+/*End Home*/
