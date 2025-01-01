@@ -1,6 +1,7 @@
 /*Home Begins*/
 .logo {
-    text-decoration: greenyellow !important;
+    color: rgb(12, 254, 80);
+    text-decoration-style: solid;
 }
 
 .navbar {
@@ -64,25 +65,59 @@ footer {
     border-radius: 5px; /* Adiciona bordas arredondadas */
     cursor: pointer; /* Muda o cursor ao passar por cima */
 }
+.custom-btn-boddy {
+    background-color: #1CCA00; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    padding: 7px 25px; /* Adiciona um espaçamento interno */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+}
 
-.textHomeGeral {
+.text-home-geral {
     font-family: Inter;
     text-align: left;
     padding-top: 65px;
 }
 
-.textHomeDev {
+.text-home-dev{
     color: rgb(12, 254, 80);
     font-size: 45px;
 }
-
-.dvTop {
+.title-home{
+    color: rgb(12, 254, 80);
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
-.imgPefil {
+.text-home-quem-sou{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.dv-bg-grey {
+    background: #2B3035;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.68);
+
+}
+
+.img-perfil{
     height: 350px;
 
+}
+.img-pefil-corpo{
+    height: 250px;
+}
+
+.fa{
+    font-size: 45px;
+    margin: 5px;
+    color: #1CCA00;
 }
 
 /*End Home*/
